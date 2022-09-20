@@ -9,7 +9,7 @@ module.exports = {
         'earth': '#4C4135',
       },
       fontFamily: {
-        'Roboto': ["'roboto'", 'sans-serif']
+        'Roboto': ["'roboto'", 'sans-serif'],
       }
     },
   },
