@@ -10,6 +10,9 @@ module.exports = {
       },
       fontFamily: {
         'Roboto': ["'roboto'", 'sans-serif'],
+      },
+      borderRadius: {
+        'theme': '4rem'
       }
     },
   },
