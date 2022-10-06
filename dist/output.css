@@ -857,6 +857,14 @@ video {
   background-position: right;
 }
 
+.bg-bottom {
+  background-position: bottom;
+}
+
+.bg-center {
+  background-position: center;
+}
+
 .bg-no-repeat {
   background-repeat: no-repeat;
 }
@@ -899,6 +907,10 @@ video {
   padding-bottom: 3rem;
 }
 
+.pb-9 {
+  padding-bottom: 2.25rem;
+}
+
 .pt-20 {
   padding-top: 5rem;
 }
@@ -913,18 +925,6 @@ video {
 
 .pr-4 {
   padding-right: 1rem;
-}
-
-.pb-6 {
-  padding-bottom: 1.5rem;
-}
-
-.pb-8 {
-  padding-bottom: 2rem;
-}
-
-.pb-9 {
-  padding-bottom: 2.25rem;
 }
 
 .text-center {
@@ -1094,22 +1094,8 @@ html, body {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.hover\:bg-primary:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(235 153 58 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-orange-500:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(249 115 22 / var(--tw-bg-opacity));
-}
-
 .hover\:bg-opacity-40:hover {
   --tw-bg-opacity: 0.4;
-}
-
-.hover\:fill-orange-500:hover {
-  fill: #f97316;
 }
 
 .hover\:fill-orange-300:hover {
@@ -1128,11 +1114,6 @@ html, body {
 .active\:border-primary:active {
   --tw-border-opacity: 1;
   border-color: rgb(235 153 58 / var(--tw-border-opacity));
-}
-
-.active\:bg-orange-500:active {
-  --tw-bg-opacity: 1;
-  background-color: rgb(249 115 22 / var(--tw-bg-opacity));
 }
 
 .active\:bg-secondary:active {
@@ -1283,10 +1264,6 @@ html, body {
 
   .lg\:right-24 {
     right: 6rem;
-  }
-
-  .lg\:bottom-40 {
-    bottom: 10rem;
   }
 
   .lg\:m-0 {
