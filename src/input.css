@@ -12,9 +12,13 @@ html, body {
 
 }
 
+.set-height {
+    height: 45rem;
+}
+
 .body-bg {
     background-image: url(../dist/images/background.png);
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-attachment: scroll;
     overflow: visible;
     background-size: cover;

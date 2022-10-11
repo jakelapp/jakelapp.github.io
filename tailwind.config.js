@@ -12,7 +12,8 @@ module.exports = {
         'Roboto': ["'roboto'", 'sans-serif'],
       },
       borderRadius: {
-        'theme': '4rem'
+        'theme': '4rem',
+        'smtheme': '3rem',
       }
     },
   },
